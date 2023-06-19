@@ -18,6 +18,12 @@ return require('packer').startup(function(use)
 	  end
   })
 
+  use {
+    'chikko80/error-lens.nvim',
+    requires = {'nvim-telescope/telescope.nvim'}
+}
+
+
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
   use('theprimeagen/harpoon')

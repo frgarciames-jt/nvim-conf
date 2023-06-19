@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/jobandtalent/.local/share/nvim/site/pack/packer/start/dragon-energy",
     url = "https://github.com/wdhg/dragon-energy"
   },
+  ["error-lens.nvim"] = {
+    loaded = true,
+    path = "/Users/jobandtalent/.local/share/nvim/site/pack/packer/start/error-lens.nvim",
+    url = "https://github.com/chikko80/error-lens.nvim"
+  },
   everforest = {
     loaded = true,
     path = "/Users/jobandtalent/.local/share/nvim/site/pack/packer/start/everforest",

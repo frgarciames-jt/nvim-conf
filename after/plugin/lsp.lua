@@ -18,6 +18,9 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
   ['<CR>'] = cmp.mapping.confirm({ select = true }),
 })
 
+cmp_mappings['<Tab>'] = nil
+cmp_mappings['<S-Tab>'] = nil
+
 lsp.set_preferences({
 	sign_icons = { }
 })

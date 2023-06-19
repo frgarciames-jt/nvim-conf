@@ -1,7 +1,6 @@
 
 vim.g.mapleader = " "
 vim.g.copilot_assume_mapped = true
-vim.api.nvim_set_keymap("i", "<C-.>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
